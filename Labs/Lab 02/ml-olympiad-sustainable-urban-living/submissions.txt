@@ -1,0 +1,29 @@
+predicted_test.csv - initial(from "another.ipynb")
+predicted_test1.csv - ??? (from "another.ipynb")
+predicted_test2.csv - final product(from "final.ipynb") 
+predicted_test3.csv - modification using above 3 datasets 
+predicted_test4.csv - using just RFR not stacked and like below 
+predicted_test5.csv - retry at original but using RFR for missing values
+predicted_test6.csv - retry with LR for missing values
+predicted_test7.csv - hyper parameter tuning for above set
+predicted_test8.csv - hyper parameter tuning for 5 models
+predicted_test9.csv - just like ...test7.csv with test_size=0.005 for training
+predicted_test10.csv - using classifier instead of regression for missing values
+predicted_test11.csv - above with hyper parameter tuning
+predicted_test12.csv - original dataset with light gbm
+predicted_test13.csv - original dataset with random search instead of grid search for Hyper parameter tuning
+predicted_test13.csv - submitted this again
+predicted_test12.csv - submitted this again for handling ordinal and nominal missing values
+predicted_test14.csv - stacked model with new hyper parameters for ordinal/ nominal
+predicted_test15.csv - above with old hyper parameters
+predicted_test16.csv - tried predicted_test9.csv this again
+predicted_test17.csv - above with new hyper parameter set
+predicted_test18.csv - new hyper parameters for predicted_test7.csv
+predicted_test19.csv - above with clustering(3)
+predicted_test20.csv - above with clustering(4)
+predicted_test20.csv - above with clustering(100)
+predicted_test21.csv - for original using GBM as meta learner
+predicted_test21.csv - above with proper dataset splits
+predicted_test22.csv - original model with lasso regularization as meta learner
+predicted_test23.csv - test21 with clustering
+predicted_test24.csv - test22 with alpha = 1
